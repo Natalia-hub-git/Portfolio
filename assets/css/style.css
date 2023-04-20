@@ -16,15 +16,20 @@ body {
 }
 
 a {
-  color: #bcf4fb;
+  color: #ffffffd1;
   transition: 0.5s;
 }
+
+.boot{
+  color: #ffd764;
+}
+
 #header #logo h1 a, #header #logo h1{
   font-family: 'Bowlby One SC', cursive;
 }
 
 a:hover, a:active, a:focus {
-  color: #bcf4fb;
+  color: #ffffffd1;
   outline: none;
   text-decoration: none;
 }
@@ -71,7 +76,7 @@ h1, h2, h3, h4, h5, h6 {
 /*  color: white;*/
 /*}*/
 .colorional{
-  background-color: #bcf4fb;
+  background-color: #eff5f5;
 }
 
 /* Back to top button */
@@ -141,7 +146,7 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 768px) {
   .colorional {
-    background-color: #bcf4fb;
+    background-color: #eff5f5;
   }
   #header #logo h1 a, #header #logo h1 a:hover {
     font-size: 29px;
@@ -172,7 +177,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header.header-fixed {
-  background: linear-gradient(45deg, #ffdc4a, #ffc3cf);
+  background: linear-gradient(45deg, #ffc3cff5, #ffffff);
   padding: 20px 0;
   height: 72px;
   transition: all 0.5s;
@@ -184,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro {
   width: 100%;
   height: 100vh;
-  background: linear-gradient(45deg, rgba(255, 219, 81, 1), rgba(254, 200, 205, 0.8)), url("../img/about-img-1.jpg") center top no-repeat;
+  background: linear-gradient(45deg, rgba(200, 143, 203, 0.97), rgba(254, 200, 205, 0.8)), url("../img/about-img-1.jpg") center top no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -213,7 +218,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #intro h2 {
   margin: 30px 0 10px 0;
-  padding: 0 15px;
+  padding: 40px 10px 0px 15px;
   font-size: 48px;
   font-weight: 400;
   line-height: 56px;
@@ -280,7 +285,7 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 36px;
   }
   #intro {
-    background: linear-gradient(45deg, rgba(255, 219, 81, 1), rgba(254, 200, 205, 0.8)), url("../img/about-img-1-cel.jpg") center top no-repeat;
+    background: linear-gradient(45deg, rgba(200, 143, 203, 0.97), rgba(254, 200, 205, 0.8)), url("../img/about-img-1-cel.jpg") center top no-repeat;
     background-size: cover;
   }
 }
@@ -464,7 +469,7 @@ h1, h2, h3, h4, h5, h6 {
   height: 2px;
   bottom: 0;
   left: 0;
-  background-color: #bcf4fb;
+  background-color: #f5f1bc;
   visibility: hidden;
   transform: scaleX(0);
   transition: all 0.3s ease-in-out 0s;
@@ -649,7 +654,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
 }
 .resume-body{
-  background: linear-gradient(45deg, rgba(255, 195, 207, 1), rgba(254, 200, 205, 0.8));
+  background: linear-gradient(45deg, rgba(255, 195, 207, 0.32), rgba(254, 200, 205, 0.8));
 }
 /* Section with background
 --------------------------------*/
@@ -1303,7 +1308,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #gallery {
   background: #fff;
   overflow: hidden;
-  padding-bottom: 60px;
+  padding-bottom: 0px;
 }
 
 #gallery .container-fluid {
@@ -1482,7 +1487,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #contact{
-  background-color: #72e7f67a;
+  background-color: #f7dce0;
+
 }
 @-webkit-keyframes animate-loading {
   0% {
